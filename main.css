@@ -1,18 +1,4 @@
 :root {
-  /* colors */
-  /* primary */
-  --Cyan: hsl(180, 66%, 49%);
-  --Dark-Violet: hsl(257, 27%, 26%);
-
-  /* Secondary */
-  --Red: hsl(0, 87%, 67%);
-
-  /* Neutral */
-  --Gray: hsl(0, 0%, 75%);
-  --Grayish-Violet: hsl(257, 7%, 63%);
-  --Very-Dark-Blue: hsl(255, 11%, 22%);
-  --Very-Dark-Violet: hsl(260, 8%, 14%);
-
   /* sizes */
   --size-xxs: .5rem;
   --size-xs: .75rem;
@@ -30,6 +16,19 @@
   --size-9xl: 8rem;
   --size-10xl: 10rem;
 
+  /* colors */
+  /* primary */
+  --Cyan: hsl(180, 66%, 49%);
+  --Dark-Violet: hsl(257, 27%, 26%);
+
+  /* Secondary */
+  --Red: hsl(0, 87%, 67%);
+
+  /* Neutral */
+  --Gray: hsl(0, 0%, 75%);
+  --Grayish-Violet: hsl(257, 7%, 63%);
+  --Very-Dark-Blue: hsl(255, 11%, 22%);
+  --Very-Dark-Violet: hsl(260, 8%, 14%);
 }
 
 *,
@@ -77,31 +76,20 @@ strong {
 }
 
 /* utilities */
-/* .btn {
-  display: inline-block;
-  font-weight: 600;
-  text-decoration: none;
-  letter-spacing: -0.05em;
-  background-color: var(--Cyan);
-  color: #fff;
-  padding: .5em 1em;
-  border-radius: 1rem;
-  width: 5rem;
-}
-
-.btn:hover {} */
 
 .container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  /* border: 2px solid green; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 2px solid green;
 }
 
+/* header styling */
 .header {
   padding: 1em .5em;
+  ;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -116,13 +104,33 @@ strong {
 }
 
 .nav__bar {
-  border: 2px solid green;
   display: inline-block;
   width: var(--size-4xl);
   height: var(--size-4xl);
-  color: var(--Dark-Violet);
+  color: var(--Grayish-Violet);
   font-weight: 700;
 }
+
+/* ---------------------- */
+/* hero section */
+#hero {
+  margin-top: 1rem;
+  position: relative;
+}
+
+.hero__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__text {
+  text-align: center;
+  order: 2;
+}
+
 
 /* media queries */
 /* xs */
@@ -132,6 +140,7 @@ strong {
     border: 2px solid red;
   }
 
+  /* header styling */
   .logo img {
     width: var(--size-7xl);
   }
@@ -144,6 +153,7 @@ strong {
     border: 2px solid goldenrod;
   }
 
+  /* header styling */
   .logo img {
     width: var(--size-8xl);
   }
@@ -156,6 +166,7 @@ strong {
     border: 2px solid orange;
   }
 
+  /* header styling */
   .header {
     justify-content: flex-start;
     gap: 2rem;
@@ -195,6 +206,7 @@ strong {
     border: 2px solid pink;
   }
 
+  /* header styling */
   .logo img {
     width: var(--size-9xl);
   }
@@ -212,6 +224,7 @@ strong {
     border: 2px solid teal;
   }
 
+  /* header styling */
   .logo img {
     width: var(--size-10xl);
   }
