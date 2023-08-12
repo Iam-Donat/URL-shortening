@@ -133,7 +133,7 @@ strong {
 }
 
 .hero__title {
-  font-size: var(--size-4xl);
+  font-size: var(--size-3xl);
   color: var(--Very-Dark-Blue);
   font-weight: 700;
 }
@@ -141,8 +141,9 @@ strong {
 .hero__description {
   color: var(--Grayish-Violet);
   max-width: 60ch;
-  font-size: var(--size-base);
+  font-size: var(--size-sm);
   margin-top: 1rem;
+  padding: 0 1rem;
 }
 
 .hero__img {
@@ -177,6 +178,15 @@ strong {
   }
 
   /* header styling */
+
+  /* hero styling */
+  .hero__title {
+    font-size: var(--size-4xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-base);
+  }
 }
 
 /* sm */
