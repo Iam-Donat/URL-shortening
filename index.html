@@ -48,11 +48,6 @@
 
     </nav>
     <button class="nav__bar">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-        <path fill-rule="evenodd"
-          d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
-          clip-rule="evenodd" />
-      </svg>
 
     </button>
   </header>
@@ -60,39 +55,49 @@
   <main>
     <section id="hero">
       <div class="hero__content container">
+        <div class="hero__img">
+          <img src="./images/illustration-working.svg" alt="">
+        </div>
         <div class="hero__text">
           <h1 class="hero__title">
-            More than just <br> shorter links
+            More than just<br>shorter links
           </h1>
           <p class="hero__description">
-            Build your brand’s recognition and <br>get detailed insights
-            on how your <br>links are performing.
+            Build your brand’s recognition and get detailed insights links are performing.
           </p>
           <button class="hero__btn">
             Get Started
           </button>
         </div>
-        <div class="hero__img">
-          <img src="./images/illustration-working.svg" alt="">
-        </div>
       </div>
     </section>
-    <!-- <section></section> -->
-    <!-- <section></section> -->
+
+    <section id="about">
+      <div class="container about">
+        <div class="inputs__bar">
+          <div class="links__input">
+            <input type="search" class="links" placeholder="Shorten a link here...">
+          </div>
+          <button class="links-btn">
+            Shorten it!
+          </button>
+        </div>
+
+        <h2 class="about__title">
+          Advanced Statistics
+        </h2>
+
+        <p class="about__description">
+          Track how your links are performing across the web with our
+          advanced statistics dashboard.
+        </p><img src="./images/bg-boost-mobile.svg" alt="">
+      </div>
+    </section>
     <!-- <section></section> -->
   </main>
   <!-- <footer></footer> -->
 
   <!-- 
-
-  Shorten a link here...
-
-  Shorten It!
-
-  Advanced Statistics
-
-  Track how your links are performing across the web with our
-  advanced statistics dashboard.
 
   Brand Recognition
 
@@ -141,8 +146,6 @@
   <script src="./app.js"></script>
 
   <!-- ionicons -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
