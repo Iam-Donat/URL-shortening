@@ -164,19 +164,37 @@ a {
   /* --- Header Styling --- */
   .header {
     justify-content: flex-start;
-
-    gap: 1rem;
+    gap: .6rem;
   }
 
   .nav__menu {
     width: 100%;
     display: flex;
     align-items: center;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
+  }
+
+  .nav__links {}
+
+  .nav__link {
+    /* border: 2px solid crimson; */
+    font-size: var(--size-xs);
+    margin-right: .8rem;
+    font-weight: 700;
   }
 
   .nav__btn {
     margin-left: auto;
+  }
+
+  .login {
+    background: none;
+    color: var(--Grayish-Violet);
+    margin-right: 0;
+  }
+
+  .signUp {
+    margin-right: 0;
   }
 
   .nav__bar {
