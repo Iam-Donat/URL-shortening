@@ -85,10 +85,11 @@ a {
   border: none;
   background: var(--Cyan);
   cursor: pointer;
-  padding: .5rem 1rem;
+  padding: .5em 1.7em;
   font-size: var(--size-xs);
   color: #fff;
   font-weight: 700;
+  border-radius: 20px;
 }
 
 .container {
@@ -105,7 +106,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 
 .logo img {
@@ -165,6 +166,10 @@ a {
   .header {
     justify-content: flex-start;
     gap: .6rem;
+  }
+
+  .logo img {
+    width: 85%;
   }
 
   .nav__menu {
