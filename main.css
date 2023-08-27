@@ -17,17 +17,17 @@
   --size-10xl: 10rem;
 
   /* primary colors */
-  --Cyan: hsl(180, 66%, 49%);
-  --Dark-Violet: hsl(257, 27%, 26%);
+  --Cyan: #2acfcf;
+  --Dark-Violet: #3b3054;
 
   /* Secondary colors */
-  --Red: hsl(0, 87%, 67%);
+  --Red: #f46262;
 
   /* Neutral colors */
-  --Gray: hsl(0, 0%, 75%);
-  --Grayish-Violet: hsl(257, 7%, 63%);
-  --Very-Dark-Blue: hsl(255, 11%, 22%);
-  --Very-Dark-Violet: hsl(260, 8%, 14%);
+  --Gray: #bfbfbf;
+  --Grayish-Violet: #9e9aa7;
+  --Very-Dark-Blue: #35323e;
+  --Very-Dark-Violet: #232127;
 }
 
 *,
@@ -40,10 +40,25 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--Dark-Violet);
+  font-weight: 700;
+}
+
+p {
+  color: var(--Grayish-Violet);
+  font-weight: 500;
 }
 
 img,
@@ -56,27 +71,60 @@ svg {
   user-select: none;
 }
 
-button {
-  display: inline-block;
-  padding: 0;
-  border: none;
-  background: none;
-  cursor: pointer;
-  color: inherit;
-}
 
 a {
   display: inline-block;
+  text-decoration: none;
+  color: var(--Grayish-Violet);
+}
+
+/* --- Utils Classes --- */
+.btn {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: var(--Cyan);
+  cursor: pointer;
+  padding: .5rem 1rem;
+  font-size: var(--size-xs);
+  color: #fff;
+  font-weight: 700;
 }
 
 .container {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
   border: 2px solid red;
 }
+
+/* ----------------------- */
+/* --- Header Styling --- */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.logo img {
+  width: 70%;
+}
+
+.nav__menu {
+  display: none;
+}
+
+.nav__bar i {
+  font-size: var(--size-2xl);
+  font-weight: 900;
+}
+
+/* --- End Header --- */
+/* --- Header Styling --- */
+
+/* --- End Header --- */
 
 /* ----- media queries -----*/
 /* xs */
@@ -93,6 +141,17 @@ a {
     max-width: 640px;
     border: 2px solid goldenrod;
   }
+
+  /* --- Header Styling --- */
+  .logo img {
+    width: 80%;
+  }
+
+  .nav__bar i {
+    font-size: var(--size-3xl);
+  }
+
+  /* --- End Header --- */
 }
 
 /* md */
@@ -101,6 +160,30 @@ a {
     max-width: 768px;
     border: 2px solid orange;
   }
+
+  /* --- Header Styling --- */
+  .header {
+    justify-content: flex-start;
+
+    gap: 1rem;
+  }
+
+  .nav__menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid orange;
+  }
+
+  .nav__btn {
+    margin-left: auto;
+  }
+
+  .nav__bar {
+    display: none;
+  }
+
+  /* --- End Header --- */
 }
 
 /* lg */
