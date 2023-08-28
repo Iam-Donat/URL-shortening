@@ -5,6 +5,9 @@
     max-width: 475px;
     border: 2px solid green;
   }
+
+  /* --- Hero section Styling --- */
+  /* --- End Hero --- */
 }
 
 /* === sm === */
@@ -20,6 +23,9 @@
   }
 
   /* --- End Header --- */
+
+  /* --- Hero section Styling --- */
+  /* --- End Hero --- */
 }
 
 /* === md === */
@@ -72,6 +78,18 @@
   }
 
   /* --- End Header --- */
+
+  /* --- Hero section Styling --- */
+  #hero {
+    border: 2px solid crimson
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* --- End Hero --- */
 }
 
 /* === lg === */

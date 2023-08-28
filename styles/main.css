@@ -142,6 +142,16 @@ a {
 /* --- End Header --- */
 
 /* --- Hero section Styling --- */
+#hero {
+  border: 2px solid crimson
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
 
 /* --- End Hero --- */
 /* --- Header Styling --- */
