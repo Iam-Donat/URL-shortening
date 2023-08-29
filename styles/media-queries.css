@@ -107,10 +107,6 @@
   /* --- End Header --- */
 
   /* --- Hero section Styling --- */
-  #hero {
-    border: 2px solid crimson
-  }
-
   .hero__content {
     display: flex;
     flex-direction: row;
@@ -152,7 +148,6 @@
     background-size: cover;
     background-position: right;
     padding: 2rem;
-    border-radius: 10px;
     display: flex;
     flex-direction: row;
   }
@@ -196,28 +191,8 @@
   /* --- End Hero --- */
 
   /* --- featuring styling --- */
-  .inputs__bar {
-    background: url(/images/bg-boost-desktop.svg);
-    background-color: var(--Dark-Violet);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    padding: 2rem;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .links__input {
-    flex: 2;
-  }
-
   .links__input input {
-    font-size: var(--size-base);
-  }
-
-  .links__btn {
-    font-size: var(--size-base);
+    padding: .75rem;
   }
 
   /* --- End featuring  --- */
@@ -307,11 +282,11 @@
 
   .links__input input {
     font-size: var(--size-lg);
-  }
+    padding: 1rem;
 
-  .links__btn {
-    font-size: var(--size-lg);
-  }
+    .links__btn {
+      font-size: var(--size-lg);
+    }
 
-  /* --- End featuring  --- */
-}
+    /* --- End featuring  --- */
+  }
