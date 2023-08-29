@@ -106,7 +106,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
 .logo a {
@@ -149,9 +149,40 @@ a {
 .hero__content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2rem 1rem;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
 }
+
+.hero__img {
+  /* border: 2px solid teal; */
+}
+
+.hero__img img {
+  max-width: 125%;
+}
+
+.hero__text {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.hero__text h1 {
+  font-size: var(--size-4xl);
+}
+
+.hero__text p {
+  margin-top: .5rem;
+  font-size: var(--size-sm);
+  max-width: 60ch;
+}
+
+.hero__text a {
+  margin-top: .5rem;
+  font-size: var(--size-sm);
+}
+
+
 
 /* --- End Hero --- */
 /* --- Header Styling --- */
