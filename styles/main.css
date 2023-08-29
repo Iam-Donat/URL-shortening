@@ -45,6 +45,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+
 }
 
 h1,
@@ -103,6 +104,7 @@ input {
   margin-left: auto;
   margin-right: auto;
   border: 2px solid red;
+
 }
 
 /* ----------------------- */
@@ -158,10 +160,7 @@ input {
   justify-content: center;
   padding: 1rem;
   position: relative;
-}
-
-.hero__img {
-  /* border: 2px solid teal; */
+  overflow: hidden;
 }
 
 .hero__img img {
@@ -192,8 +191,9 @@ input {
 
 /* --- featuring Styling --- */
 #featuring {
-  background-color: var(--Gray);
+  background-color: #e0daed93;
   margin-top: 5rem;
+  z-index: 100;
 }
 
 .featuring {
@@ -214,6 +214,7 @@ input {
   gap: 1rem;
   position: relative;
   top: -75px;
+
 }
 
 .links__input input {
