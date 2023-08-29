@@ -24,6 +24,16 @@
   }
 
   /* --- End Hero --- */
+  /* --- featuring styling --- */
+  .links__input input {
+    font-size: var(--size-base);
+  }
+
+  .links__btn {
+    font-size: var(--size-base);
+  }
+
+  /* --- End featuring  --- */
 }
 
 /* === sm === */
@@ -133,6 +143,25 @@
   }
 
   /* --- End Hero --- */
+
+  /* --- featuring styling --- */
+  .inputs__bar {
+    background: url(/images/bg-boost-desktop.svg);
+    background-color: var(--Dark-Violet);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .links__input {
+    flex: 2;
+  }
+
+  /* --- End featuring  --- */
 }
 
 /* === lg === */
@@ -165,6 +194,33 @@
   }
 
   /* --- End Hero --- */
+
+  /* --- featuring styling --- */
+  .inputs__bar {
+    background: url(/images/bg-boost-desktop.svg);
+    background-color: var(--Dark-Violet);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .links__input {
+    flex: 2;
+  }
+
+  .links__input input {
+    font-size: var(--size-base);
+  }
+
+  .links__btn {
+    font-size: var(--size-base);
+  }
+
+  /* --- End featuring  --- */
 }
 
 /* === xl === */
@@ -243,4 +299,19 @@
   }
 
   /* --- End Hero --- */
+
+  /* --- featuring styling --- */
+  .inputs__bar {
+    padding: 3rem;
+  }
+
+  .links__input input {
+    font-size: var(--size-lg);
+  }
+
+  .links__btn {
+    font-size: var(--size-lg);
+  }
+
+  /* --- End featuring  --- */
 }
