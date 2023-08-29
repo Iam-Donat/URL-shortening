@@ -192,7 +192,7 @@ input {
 /* --- featuring Styling --- */
 #featuring {
   background-color: #e0daed93;
-  margin-top: 5rem;
+  margin-top: 7rem;
   z-index: 100;
 }
 
@@ -234,6 +234,20 @@ input {
 .links__btn {
   border-radius: 5px;
   font-weight: 700;
+  font-size: var(--size-sm);
+}
+
+.featuring__title,
+.featuring__description {
+  text-align: center;
+}
+
+.featuring__title {
+  font-size: var(--size-2xl);
+}
+
+.featuring__description {
+  margin-top: .5rem;
   font-size: var(--size-sm);
 }
 
