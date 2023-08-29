@@ -7,6 +7,22 @@
   }
 
   /* --- Hero section Styling --- */
+  .hero__img img {
+    max-width: 120%;
+  }
+
+  .hero__text h1 {
+    font-size: var(--size-5xl);
+  }
+
+  .hero__text p {
+    font-size: var(--size-base);
+  }
+
+  .hero__text a {
+    font-size: var(--size-base);
+  }
+
   /* --- End Hero --- */
 }
 
@@ -25,6 +41,7 @@
   /* --- End Header --- */
 
   /* --- Hero section Styling --- */
+
   /* --- End Hero --- */
 }
 
@@ -88,6 +105,8 @@
     display: flex;
     flex-direction: row;
   }
+
+
 
   /* --- End Hero --- */
 }
