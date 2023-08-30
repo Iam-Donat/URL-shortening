@@ -100,11 +100,10 @@ input {
 }
 
 .container {
-  width: 100%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid red;
-
 }
 
 /* ----------------------- */
@@ -163,8 +162,13 @@ input {
   overflow: hidden;
 }
 
+.hero__img {
+  position: relative;
+}
+
 .hero__img img {
-  max-width: 125%;
+  width: 125%;
+  z-index: 500;
 }
 
 .hero__text {
