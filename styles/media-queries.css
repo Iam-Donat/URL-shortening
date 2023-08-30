@@ -287,6 +287,9 @@
   }
 
   /* --- End Hero --- */
+  .links__input input::placeholder {
+    font-size: var(--size-base);
+  }
 }
 
 /* === 2xl === */
@@ -343,20 +346,35 @@
   .links__input input {
     font-size: var(--size-lg);
     padding: 1rem;
-
-    .links__btn {
-      font-size: var(--size-lg);
-    }
-
-    .featuring__title {
-      font-size: var(--size-3xl);
-    }
-
-    .featuring__description {
-      margin-top: .5rem;
-      font-size: var(--size-base);
-    }
-
-    /* --- End featuring  --- */
   }
+
+  .links__btn {
+    font-size: var(--size-lg);
+  }
+
+  .featuring__cards {
+    gap: 5rem;
+  }
+
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .cardTwo::before,
+  .cardThree::before {
+    width: 5rem;
+    left: -5rem;
+  }
+
+  .featuring__title {
+    font-size: var(--size-3xl);
+  }
+
+  .featuring__description {
+    margin-top: .5rem;
+    font-size: var(--size-base);
+  }
+
+  /* --- End featuring  --- */
 }
