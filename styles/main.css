@@ -271,15 +271,23 @@ input {
   padding-right: 1rem;
   margin-bottom: 2rem;
   position: relative;
+  z-index: 5;
 }
 
-.cardTwo::before {
+.cardTwo,
+.cardThree {
+  margin-top: 2rem;
+}
+
+.cardTwo::before,
+.cardThree::before {
   content: '';
-  border: 4px solid var(cyan);
-  height: 3rem;
-  width: 2rem;
-  z-index: 999;
+  background-color: var(--Cyan);
+  height: 4rem;
+  width: 5px;
   position: absolute;
+  top: -4rem;
+  z-index: -1;
 }
 
 .card__img {
@@ -287,7 +295,7 @@ input {
   padding: 1.2rem;
   border-radius: 50%;
   position: relative;
-  top: -35px;
+  top: -2rem;
 }
 
 .card__img img {}
