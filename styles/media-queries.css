@@ -70,6 +70,10 @@
 
   /* --- Hero section Styling --- */
 
+  .hero__img img {
+    width: 110%;
+  }
+
   /* --- End Hero --- */
 }
 
