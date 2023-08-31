@@ -238,6 +238,17 @@
   }
 
   /* --- End CTA --- */
+
+  /* --- footer styling */
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  /* --- end footer */
 }
 
 /* === lg === */
@@ -287,6 +298,21 @@
   }
 
   /* --- End featuring  --- */
+
+  /* --- footer styling */
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5rem;
+  }
+
+  .footer__logo {
+    flex: 2;
+  }
+
+  /* --- end footer */
 }
 
 /* === xl === */
@@ -321,6 +347,24 @@
   .links__input input::placeholder {
     font-size: var(--size-base);
   }
+
+  /* --- footer styling */
+  .footer {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    gap: 8rem;
+  }
+
+  .features h1,
+  .resources h1,
+  .company h1,
+  .features ul,
+  .resources ul,
+  .company ul {
+    font-size: var(--size-base);
+  }
+
+  /* --- end footer */
 }
 
 /* === 2xl === */
@@ -408,4 +452,10 @@
   }
 
   /* --- End featuring  --- */
+
+  .footer {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    gap: 10rem;
+  }
 }
