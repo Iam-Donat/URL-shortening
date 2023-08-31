@@ -352,7 +352,38 @@ footer {
   padding: 0;
 }
 
-.footer__logo {}
+.footer__logo {
+  filter: brightness(0) invert(1);
+  width: var(--size-8xl);
+}
+
+.features,
+.resources,
+.company {
+  text-align: center;
+}
+
+.features h1,
+.resources h1,
+.company h1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: var(--size-sm);
+}
+
+.features ul,
+.resources ul,
+.company ul {
+  margin-top: 1rem;
+  color: var(--Grayish-Violet);
+  font-size: var(--size-sm);
+}
+
+.social__links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 
 
 /* --- End Footer --- */
