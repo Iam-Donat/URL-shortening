@@ -44,6 +44,14 @@
   }
 
   /* --- End featuring  --- */
+
+  /* --- CTA Styling --- */
+
+  .CallToAction a {
+    font-size: var(--size-sm);
+  }
+
+  /* --- End CTA --- */
 }
 
 /* === sm === */
@@ -178,10 +186,6 @@
     padding-right: 1rem;
   }
 
-  /* .cardOne {
-    align-self: ;
-  } */
-
   .cardTwo {
     margin-top: 2rem;
   }
@@ -207,6 +211,29 @@
   }
 
   /* --- End featuring  --- */
+
+  /* --- CTA Styling --- */
+  .CallToAction {
+    background: url(../images/bg-boost-desktop.svg);
+    background-color: var(--Dark-Violet);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .CallToAction h1 {
+    color: #fff;
+    font-size: var(--size-3xl);
+  }
+
+  .CallToAction a {
+    margin-top: 2rem;
+    font-size: var(--size-base);
+  }
+
+  /* --- End CTA --- */
 }
 
 /* === lg === */
