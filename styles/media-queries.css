@@ -416,6 +416,8 @@
   /* --- featuring styling --- */
   .inputs__bar {
     padding: 3rem;
+    max-width: 1280px;
+    margin: 0 auto;
   }
 
   .links__input input {
