@@ -1,23 +1,20 @@
-/* ----- media queries -----*/
+/*----- media queries ----- */
+
 /* === xs === */
 @media (min-width: 475px) {
   .container {
     max-width: 475px;
     border: 2px solid green;
-
   }
 
   /* --- Hero section Styling --- */
-  .hero__img img {
-    max-width: 120%;
-  }
-
   .hero__text h1 {
     font-size: var(--size-5xl);
   }
 
   .hero__text p {
     font-size: var(--size-base);
+    width: 18rem;
   }
 
   .hero__text a {
@@ -25,6 +22,7 @@
   }
 
   /* --- End Hero --- */
+
   /* --- featuring styling --- */
   .links__input input {
     font-size: var(--size-base);
@@ -46,7 +44,6 @@
   /* --- End featuring  --- */
 
   /* --- CTA Styling --- */
-
   .CallToAction a {
     font-size: var(--size-sm);
   }
@@ -63,7 +60,7 @@
 
   /* --- Header Styling --- */
   .nav__bar i {
-    font-size: var(--size-3xl);
+    font-size: var(--size-xl);
   }
 
   /* --- End Header --- */
@@ -71,7 +68,8 @@
   /* --- Hero section Styling --- */
 
   .hero__img img {
-    width: 110%;
+    width: 100%;
+    left: 3rem;
   }
 
   /* --- End Hero --- */
@@ -130,30 +128,37 @@
 
   /* --- Hero section Styling --- */
   .hero__content {
-    display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    gap: 0;
   }
 
   .hero__img {
     order: 2;
+    /* width: 40%; */
   }
 
-  /* .hero__img img {
-    max-width: 120%;
-  } */
+  .hero__img img {
+    width: 130%;
+    left: 1rem;
+    object-fit: contain;
+  }
 
   .hero__text {
-    text-align: left;
+    align-items: flex-start;
+    width: 70%;
+    padding-left: 1rem;
+    ;
   }
 
   .hero__text h1 {
-    font-size: var(--size-4xl);
+    text-align: left;
+    font-size: var(--size-5xl);
   }
 
   .hero__text p {
-    margin-top: 1.5rem;
+    text-align: left;
+    width: 25rem;
   }
 
   .hero__text a {
@@ -275,9 +280,21 @@
   /* --- End Header --- */
 
   /* --- Hero section Styling --- */
+  .hero__img {
+    padding: 1rem;
+  }
+
+  .hero__img img {
+    max-width: 110%;
+    left: 4rem;
+  }
 
   .hero__text h1 {
-    font-size: var(--size-5xl);
+    font-size: var(--size-6xl);
+  }
+
+  .hero__text p {
+    width: 25rem;
   }
 
   /* --- End Hero --- */
@@ -323,12 +340,8 @@
   }
 
   /* --- Hero section Styling --- */
-  .hero__content {
-    gap: 4rem;
-  }
-
   .hero__img img {
-    max-width: 125%;
+    max-width: 110%;
   }
 
   .hero__text h1 {
@@ -337,6 +350,7 @@
 
   .hero__text p {
     font-size: var(--size-lg);
+    width: 30rem;
   }
 
   .hero__text a {
@@ -391,13 +405,6 @@
   /* --- End Header --- */
 
   /* --- Hero section Styling --- */
-  .hero__content {
-    gap: 5rem;
-  }
-
-  .hero__img img {
-    max-width: 130%;
-  }
 
   .hero__text h1 {
     font-size: var(--size-7xl);
