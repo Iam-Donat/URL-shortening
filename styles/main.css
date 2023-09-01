@@ -282,6 +282,8 @@ input {
   padding-left: 1rem;
   padding-right: 1rem;
   position: relative;
+  width: 25rem;
+  margin: 0 auto;
 }
 
 .cardTwo::before,
