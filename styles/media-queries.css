@@ -127,6 +127,13 @@
 
   /* --- End Header --- */
 
+  /* --- Mobile Navbar --- */
+  .mobile__navbar {
+    display: none;
+  }
+
+  /* --- End Navbar --- */
+
   /* --- Hero section Styling --- */
   .hero__content {
     flex-direction: row;

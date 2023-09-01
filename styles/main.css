@@ -114,6 +114,7 @@ input {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1rem;
+  position: relative;
 }
 
 .logo a {
@@ -148,6 +149,30 @@ input {
 }
 
 /* --- End Header --- */
+
+/* --- Mobile Navbar --- */
+.mobile__navbar {
+  background-color: var(--Dark-Violet);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 15px;
+  width: 90%;
+  /* transform: translate(-50%, -50%); */
+  top: 15%;
+  left: 30%;
+  margin-left: -50%;
+  padding: 3rem;
+  position: fixed;
+  z-index: 999;
+}
+
+.mobile__links {
+  display: flex;
+}
+
+/* --- End Navbar --- */
 
 /* --- Hero section Styling --- */
 /* #hero {
