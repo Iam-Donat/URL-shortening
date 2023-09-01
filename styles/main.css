@@ -282,7 +282,7 @@ input {
   padding-left: 1rem;
   padding-right: 1rem;
   position: relative;
-  width: 25rem;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -394,5 +394,16 @@ footer {
   gap: 1rem;
 }
 
+.attribution {
+  background-color: var(--Very-Dark-Violet);
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--Grayish-Violet);
+  font-size: var(--size-sm);
+}
+
+.attribution a {
+  color: var(--Cyan);
+}
 
 /* --- End Footer --- */
