@@ -4,7 +4,7 @@
 @media (min-width: 475px) {
   .container {
     max-width: 475px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
   }
 
   /* --- Hero section Styling --- */
@@ -70,7 +70,7 @@
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
-    border: 2px solid goldenrod;
+    /* border: 2px solid goldenrod; */
   }
 
   /* --- Header Styling --- */
@@ -94,7 +94,7 @@
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
   }
 
   /* --- Header Styling --- */
@@ -196,9 +196,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   .links__input {
@@ -206,7 +207,7 @@
   }
 
   .links__btn {
-    align-self: flex-start;
+    align-self: center;
   }
 
   .shorten__link {
@@ -325,7 +326,7 @@
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
   }
 
   /* --- Header Styling --- */
@@ -405,7 +406,7 @@
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    border: 2px solid teal;
+    /* border: 2px solid teal; */
   }
 
   /* --- Hero section Styling --- */
@@ -462,7 +463,7 @@
 @media (min-width: 1440px) {
   .container {
     max-width: 1440px;
-    border: 2px solid wheat;
+    /* border: 2px solid wheat; */
   }
 
   /* --- Header Styling --- */
@@ -499,7 +500,7 @@
 
   /* --- featuring styling --- */
   .inputs__bar {
-    padding: 2.5rem;
+    padding: 2rem;
     max-width: 1280px;
     margin: 0 auto;
   }
@@ -507,6 +508,7 @@
   .links__input input {
     font-size: var(--size-lg);
     padding: 1rem;
+    align-self: flex-start;
   }
 
   .links__btn {
