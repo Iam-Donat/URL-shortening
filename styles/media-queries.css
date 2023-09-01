@@ -410,11 +410,11 @@
 
   /* --- Hero section Styling --- */
   .hero__img img {
-    max-width: 110%;
+    max-width: 120%;
   }
 
   .hero__text h1 {
-    font-size: var(--size-6xl);
+    font-size: var(--size-7xl);
   }
 
   .hero__text p {
@@ -459,9 +459,9 @@
 }
 
 /* === 2xl === */
-@media (min-width: 1536px) {
+@media (min-width: 1440px) {
   .container {
-    max-width: 1536px;
+    max-width: 1440px;
     border: 2px solid wheat;
   }
 
@@ -484,7 +484,7 @@
   /* --- Hero section Styling --- */
 
   .hero__text h1 {
-    font-size: var(--size-7xl);
+    font-size: var(--size-8xl);
   }
 
   .hero__text p {
