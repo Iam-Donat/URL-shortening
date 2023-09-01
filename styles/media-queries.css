@@ -23,6 +23,20 @@
 
   /* --- End Hero --- */
 
+  /* --- Mobile Navbar --- */
+  .mobile__navbar {
+
+    gap: 3rem;
+    top: 44%;
+  }
+
+  .mobile__navbar a {
+    font-size: var(--size-lg);
+  }
+
+
+  /* --- End Navbar --- */
+
   /* --- featuring styling --- */
   .links__input input {
     font-size: var(--size-base);
