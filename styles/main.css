@@ -300,20 +300,20 @@ input {
 }
 
 .shorten__link h4 {
-  padding: .5rem;
+  padding: .5rem 1rem;
   border-bottom: 1px solid #e0daed93;
 }
 
 .shorten__link p {
   color: var(--Cyan);
-  padding: .5rem;
+  padding: .5rem 1rem;
   font-family: 700;
 }
 
 .copy {
   border-radius: 5px;
   font-weight: 700;
-  margin: 0 .5rem .5rem .5rem;
+  margin: 0 1rem .5rem 1rem;
   font-size: inherit;
 }
 
@@ -480,4 +480,9 @@ footer {
 /* === Other Stylings === */
 .hidden {
   display: none;
+}
+
+.warning {
+  outline: 3px solid var(--Red);
+  color: var(--Red);
 }
