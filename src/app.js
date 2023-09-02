@@ -21,11 +21,12 @@ async function shortenUrlAPI(longUrl) {
 
     const data = await response.json();
 
-    // appeding Data Result in HTML
-    const shortURLResult = document.createElement('div');
+    shortenedLink.innerHTML = `
+    <h4>${input.value}</h4>
+    <p>${data.result.short_link}</p>
+    <button class="copy btn">Copy</button>
+    `;
 
-
-    console.log(data);
   } catch (error) {
 
   }
