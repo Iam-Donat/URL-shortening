@@ -26,11 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](./images/iam-ntwali.github.io_URL-shortening_.png)
-![Mobile View](./images/mobile%20view.png)
-![Mobile Navigation Menu View](./images/nav%20menu%20open.png)
-![Functionalities View](./images/functionalities.png)
-![Error View](./images/error.png)
+![Desktop View](./images/iam-ntwali.github.io_URL-shortening_.png){:height="100px" width="100px"}
+![Mobile View](./images/mobile%20view.png){:height="100px" width="100px"}
+![Mobile Navigation Menu View](./images/nav%20menu%20open.png){:height="100px" width="100px"}
+![Functionalities View](./images/functionalities.png){:height="100px" width="100px"}
+![Error View](./images/error.png){:height="100px" width="100px"}
 
 ### Links
 
